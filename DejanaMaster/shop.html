@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Shop</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="fonts/fontawesome-free-6.3.0-web/css/fontawesome.css" rel="stylesheet">
+    <link href="fonts/fontawesome-free-6.3.0-web/css/brands.css" rel="stylesheet">
+    <link href="fonts/fontawesome-free-6.3.0-web/css/solid.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- nav -->
+      <div class="nav container">
+        <a href="index.html" class="logo">SPORT XYC</a>
+        <!-- Card icon -->
+        <i class="bx bx-shopping-bag" id="cart-icon"></i>
+        <!-- card -->
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <div class="cart-content">
+            <!-- <div class="cart-box"> 
+                        <img src="img/product2.jpg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Earbuds</div>
+                            <div class="cart-price">$25</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                         Remove Cart  
+                        <i class='bx bxs-trash-alt cart-remove'></i>
+                    </div> -->
+          </div>
+          <!-- total -->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">0</div>
+          </div>
+          <!-- Buy Button -->
+          <button type="button" class="btn-buy">Buy Now</button>
+          <!-- Cart Close -->
+          <i class="bx bx-x" id="close-cart"></i>
+        </div>
+      </div>
+    </header>
+    <div class="new" id="meni">
+      <!-- <div class="logo"> 
+        <a href="index.html">Logo</a>
+        </div> -->
+      <!-- <ul>
+            <li><a href="#">O NAMA</a></li>
+            <li><a href="#">Proizvodi</a></li>
+            <li><a href="#">Kontakt</a></li>
+              
+        </ul> -->
+    </div>
+    <!-- shop -->
+    <section class="shop container">
+      <h2 class="section-title">Shop Products</h2>
+      <div class="flex">
+        
+        <div class="shop-content" id="productShow">
+          <!-- content -->
+  
+          <!-- box 1 -->
+  
+          <!-- box 2 -->
+          <!-- <div class="product-box">
+            <img src="img/product2.jpg" alt="" class="product-img" />
+            <h2 class="product-title">WIRELESS EARBUDS</h2>
+            <span class="price">$250</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          
+          <div class="product-box">
+            <img src="img/product3.jpg" alt="" class="product-img" />
+            <h2 class="product-title">HOODED PARKA</h2>
+            <span class="price">$45</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          
+          <div class="product-box">
+            <img src="img/product4.jpg" alt="" class="product-img" />
+            <h2 class="product-title">STRAW METAL BOTTLE</h2>
+            <span class="price">$48</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+        
+          <div class="product-box">
+            <img src="img/product5.jpg" alt="" class="product-img" />
+            <h2 class="product-title">SILVER META</h2>
+            <span class="price">$85</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+        
+          <div class="product-box">
+            <img src="img/product6.jpg" alt="" class="product-img" />
+            <h2 class="product-title">BACK HAT</h2>
+            <span class="price">$45</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          
+          <div class="product-box">
+            <img src="img/product7.jpg" alt="" class="product-img" />
+            <h2 class="product-title">BACKPACK</h2>
+            <span class="price">$25</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+         
+          <div class="product-box">
+            <img src="img/product8.jpg" alt="" class="product-img" />
+            <h2 class="product-title">ULTRABOOST 22</h2>
+            <span class="price">$75</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+          </div> -->
+        </div>
+        <div class="filteri">
+          <div id="category">
+            <ul id="categoryList"></ul>
+          </div>
+          <div id="sort">
+            <select id="sortProizvoda">
+              <option value="desc">higher price to lower</option>
+              <option value="asc">Lower price to higher</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="moj-footer">
+      <h4><a href="#">SUBSCRIBE TO OUR NEWSLETTER</a></h4>
+      <div id="mreze"> 
+          <ul>
+              <li><a href="#">INSTAGRAM</a></li>
+              <li><a href="#">TIKTOK</a></li>
+              <li><a href="#">FACEBOOK</a></li>
+              <li><a href="#">TWITTER</a></li>
+          </ul>
+
+      </div>
+      <i class="fa-solid fa-phone-volume"></i><span>+369826587566</span> <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181139.4582135168!2d20.257786570211024!3d44.81537040359178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa3d7b53fbd%3A0x1db8645cf2177ee4!2z0JHQtdC-0LPRgNCw0LQ!5e0!3m2!1ssr!2srs!4v1694766630146!5m2!1ssr!2srs" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p>  &copy;2023 Designed by Dejana Miladinović</p>
+
+  </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/main0.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>

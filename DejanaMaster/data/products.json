@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "AEROREADY SHIRT",
+    "category": 1,
+    "price": 25,
+    "image": {
+      "src": "img/product1.jpg",
+      "alt": "AEROREADY SHIRT"
+    }
+  },
+  {
+    "id": 2,
+    "name": "WIRELESS EARBUDS",
+    "category": 4,
+    "price": 250,
+    "image": {
+      "src": "img/product2.jpg",
+      "alt": "WIRELESS EARBUDS"
+    }
+  },
+  {
+    "id": 3,
+    "name": "HOODED PARKA",
+    "category": 2,
+    "price": 45,
+    "image": {
+      "src": "img/product3.jpg",
+      "alt": "HOODED PARKA"
+    }
+  },
+  {
+    "id": 4,
+    "name": "STRAW METAL BOTTLE",
+    "category": 4,
+    "price": 48,
+    "image": {
+      "src": "img/product4.jpg",
+      "alt": "STRAW METAL BOTTLE"
+    }
+  },
+  {
+    "id": 5,
+    "name": "SUNGLASSES",
+    "category": 4,
+    "price": 20,
+    "image": {
+      "src": "img/product5.jpg",
+      "alt": "STRAW METAL BOTTLE"
+    }
+  },
+  {
+    "id": 6,
+    "name": "HAT",
+    "category": 2,
+    "price": 60,
+    "image": {
+      "src": "img/product6.jpg",
+      "alt": "STRAW METAL BOTTLE"
+    }
+  },
+  {
+    "id": 7,
+    "name": "BACKPACK",
+    "category": 2,
+    "price": 90,
+    "image": {
+      "src": "img/product7.jpg",
+      "alt": "STRAW METAL BOTTLE"
+    }
+  },
+  {
+    "id": 8,
+    "name": "METAL BOTTLE",
+    "category": 4,
+    "price": 90,
+    "image": {
+      "src": "img/product12.jpg",
+      "alt": "STRAW METAL BOTTLE"
+    }
+  },
+  {
+    "id": 9,
+    "name": "SNEAKERS ",
+    "category": 3,
+    "price": 49,
+    "image": {
+      "src": "img/product8.jpg",
+      "alt": "STRAW METAL BOTTLE"
+    }
+  },
+  {
+    "id": 10,
+    "name": "T-SHIRT BLACK",
+    "category": 1,
+    "price": 150,
+    "image": {
+      "src": "img/product9.jpg",
+      "alt": "STRAW METAL BOTTLE"
+    }
+  },
+  {
+    "id": 11,
+    "name": "SNEAKERS GREEN",
+    "category": 3,
+    "price": 200,
+    "image": {
+      "src": "img/product10.jpg",
+      "alt": "STRAW METAL BOTTLE"
+    }
+  },
+  {
+    "id": 12,
+    "name": "SNEAKERS YELLOW ",
+    "category": 3,
+    "price": 48,
+    "image": {
+      "src": "img/product11.jpg",
+      "alt": "STRAW METAL BOTTLE"
+    }
+  }
+ 
+]
